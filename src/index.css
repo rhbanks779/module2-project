@@ -1,13 +1,276 @@
+html{
+  background-image: url("https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head{
+  background-color: black;
+  color: wheat;
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+ }
+ .welcome{
+   text-align: center;
+   font-size: 4rem;
+   font-family: cursive;
+   color:rgb(78, 4, 4)
+ }
+.homePage{
+  background-color: rgb(173, 173, 39);
+}
+.homeImage{
+  display: flex;
+  justify-content: center;
+}
+.headBar{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  }
+.main {
+  box-sizing: border-box;
+}
+.home{
+  font-size: 2.5rem;
+}
+.meme{
+  font-size: 2.5rem;
+}
+.tenzies{
+  font-size: 2.5rem;
+}
+.joke{
+  font-size: 2.5rem;
+  }
 body {
+  font-family: "Karla", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.jokes{
+  text-align: center;
+  }
+  .jokeimage{
+    width: 8rem;
+  }
+.joke-setup{
+  background-color: rgb(27, 27, 31);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.excuse-title{
+  background-color: rgb(27, 27, 31);
+    color: white;
+    font-size: 3rem;
+    width:15%;
+    margin:auto;
+    border-radius: 20px;
+}
+.joke-response{
+  border-style: double;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+  border-color: rgb(10, 10, 10);
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+main {
+  padding: 36px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #616163 1.18%, #18171a 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+  font-size: 35px;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  margin-bottom: 17px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  background-color: burlywood;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  font-size: ;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #616163 1.18%, #18171a 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+.tenzies-body{
+  box-sizing: border-box;
+  background-color:#0B2434 ;
+  margin: auto;
+  border-style: groove;
+  padding: 20px;
+  height: 650px;
+  max-width: 800px;
+  border-color:#0B2434;
+  border-radius: 10px;
+  justify-content: center;
+  
+  
+}
+.containers{
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr) ;
+  gap: 10px;
+}
+.dice{
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.979);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 2rem;
+  }
+.roll-button{
+  height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    margin-left: 310px; 
+    margin-top: 10px;
+    }
+.roll-button{
+  outline: none;
+}
+.roll-button{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.tenzie-title{
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tenzie-directions{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.get-button{
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.submit-button{
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.input-box{
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
