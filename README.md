@@ -1,6 +1,6 @@
 # React Module 2 Project
 
-This project was created via React. The Purpose of this app is to bring enjoyment and relaxation for people looking for a break.
+This project was created via React. The Purpose of this app is to bring enjoyment and relaxation for people looking for brief moments of levity.
 
 
 ## Target Audience
