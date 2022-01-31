@@ -15,10 +15,6 @@ export default function Header(){
             <li className="joke">Jokes</li>
             </Link>
 
-            <Link to='madlibs'>
-            <li className="meme">Madlibs</li>
-            </Link>
-
             <Link to='meme'>
             <li className='meme'>Memes</li>
             </Link>
