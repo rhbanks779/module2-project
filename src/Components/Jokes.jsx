@@ -37,7 +37,7 @@ export default function Jokes(){
         <div className="jokes">
         <button className="joke-setup" onClick={() => getJoke()}>Prepare to Laugh! </button>
        <br></br><br></br><br></br>
-        <img src={jokes.icon_url} className='jokeimage'/>
+        <img src={jokes.icon_url} alt="joke" className='jokeimage'/>
         <h2 className="joke-response" >{jokes.value}</h2>
 
         <br></br><br></br><br></br><br></br><br></br><br></br>
