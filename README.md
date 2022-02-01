@@ -1,4 +1,4 @@
-# React Module 2 Project
+# React Module 2 Project: The Sandlot
 
 This project was created via React. The Purpose of this app is to bring enjoyment and relaxation for people looking for brief moments of levity.
 
